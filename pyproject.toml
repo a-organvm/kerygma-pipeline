@@ -9,8 +9,8 @@ description = "End-to-end distribution pipeline orchestrator for ORGAN-VII Keryg
 requires-python = ">=3.11"
 dependencies = [
     "announcement-templates",
-    "kerygma-social",
-    "kerygma-strategy",
+    "social-automation",
+    "distribution-strategy",
     "pyyaml>=6.0",
     "feedparser>=6.0",
 ]
