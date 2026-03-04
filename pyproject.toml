@@ -8,7 +8,7 @@ version = "0.3.0"
 description = "End-to-end distribution pipeline orchestrator for ORGAN-VII Kerygma"
 requires-python = ">=3.11"
 dependencies = [
-    "kerygma-templates",
+    "announcement-templates",
     "kerygma-social",
     "kerygma-strategy",
     "pyyaml>=6.0",
