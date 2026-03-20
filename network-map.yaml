@@ -1,0 +1,17 @@
+schema_version: '1.0'
+repo: kerygma-pipeline
+organ: ORGAN-VII
+mirrors:
+  technical:
+  - project: yaml/pyyaml
+    platform: github
+    relevance: 'Python dependency: pyyaml'
+    engagement:
+    - watch
+    tags:
+    - auto-discovered
+    - python-dep
+  parallel: []
+  kinship: []
+ledger: ~/.organvm/network/ledger.jsonl
+last_scanned: '2026-03-20T11:55:26.350842+00:00'
