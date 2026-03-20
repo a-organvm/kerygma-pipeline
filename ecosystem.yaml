@@ -1,0 +1,25 @@
+schema_version: '1.0'
+repo: kerygma-pipeline
+organ: VII
+display_name: "Kerygma Pipeline — End-to-end dispatch combining templates, social, and strategy"
+
+delivery:
+- platform: python_library
+  status: live
+  priority: critical
+  notes: "Distribution pipeline orchestrating templates, social automation, and strategy"
+  next_action: "Maintain pipeline as distribution channels expand"
+
+marketing:
+- platform: distribution_pipeline
+  status: live
+  priority: critical
+  notes: "POSSE dispatch events for all ORGAN-III products and system announcements"
+  next_action: "Optimize dispatch timing based on strategy analytics"
+
+content:
+- platform: docs_site
+  status: not_started
+  priority: medium
+  notes: "Pipeline architecture, dispatch event format, channel configuration"
+  next_action: "Document pipeline stages and event schema"
