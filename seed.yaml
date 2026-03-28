@@ -31,6 +31,18 @@ consumes:
   - type: distribution_strategy
     source: distribution-strategy
     description: "Analytics, scheduling, and channel routing"
+  - type: research-publication
+    source: ORGAN-I
+    description: "Research outputs (SGO papers, arXiv submissions) for public distribution"
+  - type: creative-release
+    source: ORGAN-II
+    description: "Creative works (generative art, performance systems) for distribution"
+  - type: community-announcement
+    source: ORGAN-VI
+    description: "Community events, salon recordings, curriculum launches for distribution"
+  - type: client-launch
+    source: ORGAN-III
+    description: "Product launches, consulting milestones for distribution"
 
 subscriptions:
   - event: product.release
