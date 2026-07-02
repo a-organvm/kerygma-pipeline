@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: kerygma-pipeline
+Version: 0.3.0
+Summary: End-to-end distribution pipeline orchestrator for ORGAN-VII Kerygma
+Requires-Python: >=3.11
+License-File: LICENSE
+Requires-Dist: announcement-templates
+Requires-Dist: social-automation
+Requires-Dist: distribution-strategy
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: feedparser>=6.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: ruff>=0.4.0; extra == "dev"
+Dynamic: license-file

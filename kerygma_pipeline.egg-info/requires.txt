@@ -1,0 +1,9 @@
+announcement-templates
+social-automation
+distribution-strategy
+pyyaml>=6.0
+feedparser>=6.0
+
+[dev]
+pytest>=7.0
+ruff>=0.4.0

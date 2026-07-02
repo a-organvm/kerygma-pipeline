@@ -1,0 +1,24 @@
+{
+  "records": [
+    {
+      "record_id": "pipeline-mastodon-20260628183926-cbe43a59-mastodon",
+      "post_id": "pipeline-mastodon-20260628183926-cbe43a59",
+      "platform": "mastodon",
+      "status": "failure",
+      "timestamp": "2026-06-28T18:39:26.227110",
+      "external_url": "",
+      "error": "No client configured for mastodon",
+      "metadata": {}
+    },
+    {
+      "record_id": "pipeline-discord-20260628183926-ddae649a-discord",
+      "post_id": "pipeline-discord-20260628183926-ddae649a",
+      "platform": "discord",
+      "status": "failure",
+      "timestamp": "2026-06-28T18:39:26.228120",
+      "external_url": "",
+      "error": "No client configured for discord",
+      "metadata": {}
+    }
+  ]
+}

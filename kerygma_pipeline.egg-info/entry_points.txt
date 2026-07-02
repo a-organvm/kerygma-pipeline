@@ -1,0 +1,2 @@
+[console_scripts]
+kerygma-pipeline = kerygma_pipeline:main
